@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Calculator {
+    main()
+    start()
+}
+
+class CalculatorController {
+    resultDisplay: TextField
+
+    clearButtonClicked()
+    enterButtonClicked()
+    addButtonClicked()
+    divButtonClicked()
+    subButtonClicked()
+    multiButtonClicked()
+    oneButtonClicked()
+    twoButtonClicked()
+    threeButtonClicked()
+    fourButtonClicked()
+    fiveButtonClicked()
+    sixButtonClicked()
+    sevenButtonClicked()
+    eightButtonClicked()
+    nineButtonClicked()
+    zeroButtonClicked()
+    deciButtonClicked()
+}
+
+javafx.Application <|-- Calculator
+
+Calculator -- CalculatorController
+
+@enduml
